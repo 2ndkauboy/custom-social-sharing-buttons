@@ -1,7 +1,7 @@
 <?php
 /*
  * Plugin Name: Custom Social Sharing Buttons
- * Description: An example for
+ * Description: An example for adding custom social sharing buttons to a website/post
  * Version: 1.0.0
  * Author: Bernhard Kau
  * Author URI: http://kau-boys.de
