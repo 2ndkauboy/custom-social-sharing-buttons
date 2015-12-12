@@ -40,6 +40,7 @@ function custom_social_sharing_buttons_markup() {
 add_action( 'wp_footer', 'custom_social_sharing_buttons_markup' );
 
 function custom_social_sharing_buttons_styles() {
-	wp_enqueue_style( 'custom_social_sharing_buttons', plugins_url( 'sharing.css', __FILE__ ) );
+	wp_enqueue_style( 'custom-social-sharing-buttons-css', plugins_url( '/sharing.css', __FILE__ ) );
+	wp_enqueue_script( 'custom-social-sharing-buttons-js', plugins_url( '/sharing.js' , __FILE__ ), array( 'jquery' ), '1.0.0', true );
 }
 add_action( 'wp_enqueue_scripts', 'custom_social_sharing_buttons_styles' );
